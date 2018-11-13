@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+li a:hover {
+    background-color: rgb(145, 14, 14);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+.game-posts {
+    height: 400px;
+    background: red;
+}
+
+.game {
+    width: 92%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: -140px;
+    background: #ff4d4d;
+}
+
+.nav-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.game-pic {
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+    display: block;
+    margin-top: 25px;
+}
+
+.pic-cont {
+    /* border: 1px solid; */
+    width: 300px;
+    height: 350px;
+    margin-top: 25px;
+    display: block;
+}
